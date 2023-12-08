@@ -56,6 +56,16 @@ select{
     width: 250px;
 }
 
+.media{
+    border: none;
+    width: 100px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+}
+
 footer{
     text-align: center;
 }
