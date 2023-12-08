@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boletim</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Mohave&family=Montserrat:wght@300;400&family=Playfair+Display&family=Poppins:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <header><!--Cabeçalho-->
+        <h1>Boletim do meliante<hr></h1>
+    </header>
+
+    <section><!--Conteúdo-->
+        <div class="insertNotas">
+            Insira a suas notas tiradas no seu bimestre: <br>
+            <input type="number" name="numero1" class="notas">
+            <input type="button" value="Validar" onclick="validacao()" class="botao">
+
+            <br>
+            <select name="visualizer" class="visualizer" size="6">
+                <!--Option-->
+            </select>
+
+            <br>
+            <input type="button" value="Média" onclick="media()">
+
+            <p class="media"></p>
+
+
+        </div>
+
+    </section>
+
+    <footer><!--Rodapé-->
+        <h4>Created by da² humilde</h4>
+    </footer>
+
+    <script src="Boletim.js"></script>
+</body>
+</html>

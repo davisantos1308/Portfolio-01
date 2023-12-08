@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: 'montserrat';
+    font-size: 16px;
+}
+
+header{
+    text-align: center;
+}
+
+hr{
+    margin-top: 0;
+    width: 375px;
+    padding: 1px;
+    background-color: black;
+    border: none;
+}
+
+section{    
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.insertNotas{
+    background-color: rgba(0, 0, 0, 0.096);
+    border-radius: 20px;
+    padding: 20px;
+    width: 600px;
+    margin: auto; /* Centralização automática*/
+}
+
+.botao{
+    border: none;
+    width: 100px;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 15px;
+    background-color: black;
+    color: #fff;
+}
+
+.notas{
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.096);
+}
+
+select{
+    margin-top: 10px;
+    width: 250px;
+}
+
+footer{
+    text-align: center;
+}
